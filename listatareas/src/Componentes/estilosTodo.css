@@ -1,0 +1,60 @@
+.todoContainer{
+    width: 500px;
+    margin: 100px auto;
+
+    display: flex;
+    flex-direction: column;
+
+}
+body {
+    margin: 100px;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+   min-height: 100vh; /* Asegura que el contenido se centre en toda la altura de la pantalla */
+    background-color: #f0f0f0; /* Cambia el color de fondo a tu preferencia */
+}
+  
+.todpCreateForm{
+    display: flex;
+    gap: 5px;
+}
+
+.todoInput{
+    flex-grow: 2;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: solid 1px #db1a1a;
+    
+}
+.buttonCreate{
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(26,76,169);
+    color:white;
+    padding: 8px 10px;
+
+}
+
+.todoContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+.todo{
+    padding:10px;
+    background-color: white;
+
+}
+.totoTitle{
+    flex: 1;
+    font-size: 20px;
+}
+.todoUpdateFrom, .todoInfo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
